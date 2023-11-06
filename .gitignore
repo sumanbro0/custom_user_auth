@@ -1,0 +1,47 @@
+# Ignore Next.js build output
+**/.next/
+**/out/
+
+# Ignore node_modules for all directories
+**/node_modules/
+
+# Ignore Django migrations for all directories
+**/db.sqlite3
+**/media/
+**/*/migrations/
+
+# Ignore virtual environments for Python for all directories
+**/venv/
+**/.venv/
+**/.virtualenv/
+
+# Ignore any local environment files
+*.env
+
+# Ignore OS or editor-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any compiled or built files
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.o
+*.obj
+*.dll
+*.exe
+*.a
+*.out
+*.so
+*.lib
+*.dylib
+*.npm
+*.lock
+*.log
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore any sensitive or private information
+secrets.json
